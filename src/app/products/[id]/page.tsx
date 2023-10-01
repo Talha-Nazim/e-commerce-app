@@ -16,17 +16,7 @@ export default function Page({ params }: { params: { id: string } }) {
 
     return <div className="flex mt-16 py-10 flex-wrap">
 
-      {/* {
-        result.length > 0 ? result.map((product) => (
-          <ProductCard key={product.id}
-           title={product.name}
-            price={product.price}
-             img={product.image as StaticImageData}
-             category={product.category}
-             />
-         )) :<p>No Products Found</p>
-        } */}
-        {/* This product page for Product Id {params.id} */}
+
        { result.map((product) => (
           <div key ={product.id} className="flex justify-between gap-6">
             <div> 

@@ -1,4 +1,4 @@
-import logo from "/public/logo.webp"
+import logo from "/public/Logo.webp"
 import Image from "next/image"
 import React from "react"
 import { Twitter } from "lucide-react"
