@@ -25,9 +25,6 @@ export default function Page({ params }: { params: { id: string } }) {
             <h2 className="text-base text-gray-400 font-semibold">
               {product.tagline}
             </h2>
-            {/* <p>Name {product.name}</p>
-            <p>Price {product.price}</p>
-            <p>Category {product.category}</p> */}
             <div>
               <h3 className="text-xs mt-6 font-semi-bold">SELECT SIZE</h3>
               <div className="flex gap-x-2">

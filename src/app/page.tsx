@@ -1,9 +1,9 @@
-import Image from 'next/image'
+
 import Hero from '@/views/Hero'
-import Link from 'next/link'
 import Promotion from '@/components/layout/Promotion'
 import ProductList from "@/views/productlist"
 import Subscribe from '@/components/layout/Subscribe'
+import Content from '@/views/Content'
 
 
 
@@ -24,8 +24,9 @@ export default function Home() {
   <div>
     <Hero/>
     {/* products */}
-    <ProductList/>
     <Promotion/>
+    <ProductList/>
+    <Content/>
     <Subscribe/>
   </div>
     

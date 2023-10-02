@@ -1,5 +1,10 @@
 import { product } from "./types";
 import p1 from "/public/p1.png" 
+import p2 from "/public/p2.webp";
+import p3 from "/public/p3.png";
+import p4 from "/public/p4.webp";
+import p5 from "/public/p5.png";
+
 
 export const Products:product[] = [
     {
@@ -16,7 +21,7 @@ export const Products:product[] = [
         tagline:"Dress",
         category:"female",
         price:20,
-        image:p1,
+        image:p2,
     },
     {
         id:"3",
@@ -24,15 +29,15 @@ export const Products:product[] = [
         tagline:"Dress",
         category:"female",
         price:200,
-        image:p1,
+        image:p3,
     },
     {
         id:"4",
         name:"product 4",
         tagline:"Dress",
-        category:"male",
+        category:"female",
         price:120,
-        image:p1,
+        image:p4,
     },
     {
         id:"5",
